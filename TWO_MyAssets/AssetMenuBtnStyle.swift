@@ -15,10 +15,11 @@ struct AssetMenuBtnStyle: ButtonStyle {
             Image(systemName: menu.systemImageName)
                 .resizable()
                 .frame(width: 30, height: 30)
-                .padding([.leading, .trailing], 10)
+                .padding([.leading, .trailing], 15)
             Text(menu.title)
                 .font(.system(size: 12, weight: .bold))
         }
+        .padding([.top, .bottom], 10)
         .foregroundColor(.black)
         .background(Color.white)
         .clipShape(RoundedRectangle(cornerRadius: 10))
