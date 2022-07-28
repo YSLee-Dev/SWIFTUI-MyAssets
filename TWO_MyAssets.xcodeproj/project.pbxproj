@@ -17,6 +17,12 @@
 		D4E7E41B28913A0200F6203E /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7E41A28913A0200F6203E /* PageVC.swift */; };
 		D4E7E41D289145B000F6203E /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7E41C289145B000F6203E /* PageControl.swift */; };
 		D4E7E41F289146FB00F6203E /* AssetBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7E41E289146FB00F6203E /* AssetBannerView.swift */; };
+		D4E7E4242892889D00F6203E /* assets.json in Resources */ = {isa = PBXBuildFile; fileRef = D4E7E4232892889D00F6203E /* assets.json */; };
+		D4E7E4262892890900F6203E /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7E4252892890900F6203E /* Asset.swift */; };
+		D4E7E428289289D700F6203E /* AssetSummaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7E427289289D700F6203E /* AssetSummaryData.swift */; };
+		D4E7E42C2892968000F6203E /* AssetSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7E42B2892968000F6203E /* AssetSectionView.swift */; };
+		D4E7E42E289298DF00F6203E /* AssetSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7E42D289298DF00F6203E /* AssetSummaryView.swift */; };
+		D4E7E43328929AE500F6203E /* AssetSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7E43228929AE500F6203E /* AssetSectionHeaderView.swift */; };
 		D4ED7BE7288E940D00806A4F /* TWO_MyAssetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED7BE6288E940D00806A4F /* TWO_MyAssetsApp.swift */; };
 		D4ED7BE9288E940D00806A4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ED7BE8288E940D00806A4F /* ContentView.swift */; };
 		D4ED7BEB288E941000806A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4ED7BEA288E941000806A4F /* Assets.xcassets */; };
@@ -34,6 +40,12 @@
 		D4E7E41A28913A0200F6203E /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
 		D4E7E41C289145B000F6203E /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		D4E7E41E289146FB00F6203E /* AssetBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetBannerView.swift; sourceTree = "<group>"; };
+		D4E7E4232892889D00F6203E /* assets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = assets.json; sourceTree = "<group>"; };
+		D4E7E4252892890900F6203E /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		D4E7E427289289D700F6203E /* AssetSummaryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryData.swift; sourceTree = "<group>"; };
+		D4E7E42B2892968000F6203E /* AssetSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSectionView.swift; sourceTree = "<group>"; };
+		D4E7E42D289298DF00F6203E /* AssetSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetSummaryView.swift; sourceTree = "<group>"; };
+		D4E7E43228929AE500F6203E /* AssetSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetSectionHeaderView.swift; sourceTree = "<group>"; };
 		D4ED7BE3288E940D00806A4F /* TWO_MyAssets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWO_MyAssets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4ED7BE6288E940D00806A4F /* TWO_MyAssetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWO_MyAssetsApp.swift; sourceTree = "<group>"; };
 		D4ED7BE8288E940D00806A4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +69,7 @@
 			children = (
 				D4E7E414289136EA00F6203E /* AssetBanner.swift */,
 				D4E7E3EE288FE6EC00F6203E /* AssetMenu.swift */,
+				D4E7E4252892890900F6203E /* Asset.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -79,6 +92,17 @@
 				D4E7E41E289146FB00F6203E /* AssetBannerView.swift */,
 			);
 			path = AssetBannerView;
+			sourceTree = "<group>";
+		};
+		D4E7E42F289299AE00F6203E /* AssetSummaryView */ = {
+			isa = PBXGroup;
+			children = (
+				D4E7E427289289D700F6203E /* AssetSummaryData.swift */,
+				D4E7E42B2892968000F6203E /* AssetSectionView.swift */,
+				D4E7E42D289298DF00F6203E /* AssetSummaryView.swift */,
+				D4E7E43228929AE500F6203E /* AssetSectionHeaderView.swift */,
+			);
+			path = AssetSummaryView;
 			sourceTree = "<group>";
 		};
 		D4ED7BDA288E940D00806A4F = {
@@ -105,8 +129,10 @@
 				D4E7E4172891375100F6203E /* BannerCard.swift */,
 				D4ED7BE6288E940D00806A4F /* TWO_MyAssetsApp.swift */,
 				D4ED7BE8288E940D00806A4F /* ContentView.swift */,
+				D4E7E42F289299AE00F6203E /* AssetSummaryView */,
 				D4E7E3F4288FF19300F6203E /* AssetView.swift */,
 				D4E7E3EC288E998A00F6203E /* NavigationBarBtn.swift */,
+				D4E7E4232892889D00F6203E /* assets.json */,
 				D4ED7BEA288E941000806A4F /* Assets.xcassets */,
 				D4ED7BEC288E941000806A4F /* Preview Content */,
 			);
@@ -179,6 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E7E4242892889D00F6203E /* assets.json in Resources */,
 				D4ED7BEE288E941000806A4F /* Preview Assets.xcassets in Resources */,
 				D4ED7BEB288E941000806A4F /* Assets.xcassets in Resources */,
 			);
@@ -191,8 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E7E43328929AE500F6203E /* AssetSectionHeaderView.swift in Sources */,
 				D4E7E3F3288FEC8D00F6203E /* AssetMenuGridView.swift in Sources */,
+				D4E7E42C2892968000F6203E /* AssetSectionView.swift in Sources */,
+				D4E7E4262892890900F6203E /* Asset.swift in Sources */,
 				D4E7E41B28913A0200F6203E /* PageVC.swift in Sources */,
+				D4E7E428289289D700F6203E /* AssetSummaryData.swift in Sources */,
+				D4E7E42E289298DF00F6203E /* AssetSummaryView.swift in Sources */,
 				D4E7E3ED288E998A00F6203E /* NavigationBarBtn.swift in Sources */,
 				D4E7E415289136EA00F6203E /* AssetBanner.swift in Sources */,
 				D4E7E3F5288FF19300F6203E /* AssetView.swift in Sources */,
