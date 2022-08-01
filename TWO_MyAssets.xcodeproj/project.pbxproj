@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4E0CBCD2897D72200FA7B88 /* TapMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E0CBCC2897D72200FA7B88 /* TapMenuView.swift */; };
+		D4E0CBCF2897DB5900FA7B88 /* AssetCardSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E0CBCE2897DB5800FA7B88 /* AssetCardSectionView.swift */; };
 		D4E7E3ED288E998A00F6203E /* NavigationBarBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7E3EC288E998A00F6203E /* NavigationBarBtn.swift */; };
 		D4E7E3EF288FE6EC00F6203E /* AssetMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7E3EE288FE6EC00F6203E /* AssetMenu.swift */; };
 		D4E7E3F1288FEA5400F6203E /* AssetMenuBtnStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7E3F0288FEA5400F6203E /* AssetMenuBtnStyle.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4E0CBCC2897D72200FA7B88 /* TapMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapMenuView.swift; sourceTree = "<group>"; };
+		D4E0CBCE2897DB5800FA7B88 /* AssetCardSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCardSectionView.swift; sourceTree = "<group>"; };
 		D4E7E3EC288E998A00F6203E /* NavigationBarBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarBtn.swift; sourceTree = "<group>"; };
 		D4E7E3EE288FE6EC00F6203E /* AssetMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenu.swift; sourceTree = "<group>"; };
 		D4E7E3F0288FEA5400F6203E /* AssetMenuBtnStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetMenuBtnStyle.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 				D4E7E42B2892968000F6203E /* AssetSectionView.swift */,
 				D4E7E42D289298DF00F6203E /* AssetSummaryView.swift */,
 				D4E7E43228929AE500F6203E /* AssetSectionHeaderView.swift */,
+				D4E0CBCC2897D72200FA7B88 /* TapMenuView.swift */,
+				D4E0CBCE2897DB5800FA7B88 /* AssetCardSectionView.swift */,
 			);
 			path = AssetSummaryView;
 			sourceTree = "<group>";
@@ -231,8 +237,10 @@
 				D4E7E3F1288FEA5400F6203E /* AssetMenuBtnStyle.swift in Sources */,
 				D4ED7BE9288E940D00806A4F /* ContentView.swift in Sources */,
 				D4ED7BE7288E940D00806A4F /* TWO_MyAssetsApp.swift in Sources */,
+				D4E0CBCD2897D72200FA7B88 /* TapMenuView.swift in Sources */,
 				D4E7E41D289145B000F6203E /* PageControl.swift in Sources */,
 				D4E7E41F289146FB00F6203E /* AssetBannerView.swift in Sources */,
+				D4E0CBCF2897DB5900FA7B88 /* AssetCardSectionView.swift in Sources */,
 				D4E7E4182891375100F6203E /* BannerCard.swift in Sources */,
 				D4E7E3EF288FE6EC00F6203E /* AssetMenu.swift in Sources */,
 			);
